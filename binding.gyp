@@ -6,7 +6,7 @@
   },
   "targets": [
     {
-      "target_name": "sqlite3",
+      "target_name": "sqlite",
       "include_dirs": ["<!(node -e \"require('nan')\")"],
       "conditions": [
         ["sqlite != 'internal'", {
